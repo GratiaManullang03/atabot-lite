@@ -1,0 +1,36 @@
+# Lingkungan Virtual
+/venv
+/env
+/.venv
+/.env
+
+# File environment lokal
+.env
+
+# Direktori data yang dihasilkan saat runtime
+/vector_db_data/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Artefak build dan distribusi
+/build/
+/dist/
+*.egg-info/
+*.egg
+
+# Konfigurasi IDE
+.vscode/
+.idea/
+
+# File log
+*.log
+logs/
+
+# Artefak pengujian
+.pytest_cache/
+.coverage
+htmlcov/
